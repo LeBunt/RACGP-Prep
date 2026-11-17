@@ -16,7 +16,7 @@ function loadUnit(u){const m=unitMeta(u);if(!m||LOADED[u])return Promise.resolve
 function loadUnits(list){return Promise.all((list||[]).map(loadUnit))}
 function openUnit(u,then){loadUnit(u).then(then,()=>{alertBar("Could not load "+u+". Check your connection and try again.")})}
 function alertBar(msg){const a=document.getElementById("app");if(!a)return;const e=document.createElement("div");e.className="panel";e.setAttribute("role","alert");e.textContent=msg;a.insertBefore(e,a.firstChild);setTimeout(()=>e.remove(),6000)}
-const LKEY="akt-practice-v1", DAY=864e5, VERSION="4.18";
+const LKEY="akt-practice-v1", DAY=864e5, VERSION="4.19";
 const PACE={akt:96e3,kfp:205e3}; // exam time per question: 240 min / 150 and 240 min / 70
 const NUMWORD=["","ONE","TWO","THREE","FOUR","FIVE","SIX"];
 
