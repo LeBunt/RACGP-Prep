@@ -17,7 +17,7 @@ The detailed question-writing guide is kept with the private build files; this f
 1. Read the primary source for every page before writing: Therapeutic Guidelines first, then AMH for drug facts, then the national body for the topic (Kidney Health Australia, RCH, PCFA, Healthy Male, AJGP reviews).
 2. Record what was read, and when, in the private build notes (the `read` field of each reference). The app shows the citation only. If a gap affects what a page can claim, say so in the page text.
 3. Log every fact taken from a source in the private build notes as it is read, in own words. No source text goes into the app or the public repository.
-4. Where two sources give different numbers, the page gets a "Where the sources differ" table, and questions follow Therapeutic Guidelines unless stated.
+4. Where two sources give different numbers, the page gets a "Where the sources differ" table. Teaching text and questions follow whichever source is more recent, and the page says which. Therapeutic Guidelines is the default when dates are similar.
 5. No number in the notes comes from memory or judgement. If no source gives a figure, the page says so.
 6. A question that rests on something not read in a source carries a verification note (`v`) shown to the user, or is not written.
 7. Nothing is copied or adapted from any course, from the college's papers, or from any question bank. Every item is original and written from the primary sources.
