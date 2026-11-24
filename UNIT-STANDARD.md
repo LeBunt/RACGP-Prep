@@ -67,6 +67,10 @@ Written to the same house style as the Anki decks (the card-craft rubric in the 
 5. Regenerate the PDFs and refresh the private archive.
 6. Commit, push, and confirm the live site shows the new version number.
 
+## Question form (added 24 November 2026)
+
+New questions follow the 25 rules in section 2 of EXAM-STYLE-RECOMMENDATIONS.md in the private build folder, measured from the 2027.1 practice papers: option count follows the task (5, or 8 to 10), short options without reasons, stock lead-ins beginning "What ... MOST", KFPs as full cases with about four options per correct answer. Where this section conflicts with older text above, this section wins.
+
 ## Final check before calling a unit done
 
 - The coverage table has no gap without a written reason.
