@@ -1,6 +1,6 @@
 # Unit build standard
 
-Version 1, 17 November 2026. Built on the Kidney and urinary health unit. Every later unit follows this.
+Version 2, 18 November 2026. Built on the Kidney and urinary health and Respiratory health units. Every later unit follows this.
 The detailed question-writing guide is kept with the private build files; this file covers everything around it.
 
 ## What a finished unit contains
@@ -8,8 +8,9 @@ The detailed question-writing guide is kept with the private build files; this f
 | Part | Standard |
 |---|---|
 | Notes pages | One page per presentation or decision area, covering the whole RACGP curriculum unit. About 10 to 16 pages for a large unit. |
-| Flashcards | 15 to 45 per page. One fact per card, cloze format with a hint, linked to its notes section, with its source named. |
-| Questions | 8 to 10 per page across the unit (about 110 to 130 for a large unit, 40 to 60 for a small one), of which roughly one in eight is a KFP. Every notes page has at least five. |
+| Flashcards | About 27 per page (15 to 45). One fact per card, cloze format with a hint, linked to its notes section, with its source named. |
+| Questions | 6 to 7 per page, one of them a KFP. Every notes page has at least five. |
+| Coverage table | Every topic in the RACGP curriculum unit (6th and 7th editions) and every topic for the unit in the public exam reports, mapped to a page or given a written reason for leaving it out. |
 | Revised-notes PDFs | One per page, numbered in app order, in the private notes folder. |
 
 ## Sources
@@ -67,6 +68,10 @@ Written to the same house style as the Anki decks (the card-craft rubric in the 
 6. Commit, push, and confirm the live site shows the new version number.
 
 ## Final check before calling a unit done
+
+- The coverage table has no gap without a written reason.
+- A reader who did not write the unit has checked every question and card against the source log.
+- Every number in a card or answer key appears on its notes page, or the exception has been looked at.
 
 - Every page lists its sources and its gaps.
 - Every card and question resolves to a notes section.

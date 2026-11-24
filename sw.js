@@ -1,7 +1,7 @@
 /* Offline support. Network first, so a new release is picked up as soon as the device is online;
    the cached copy is used when it is not. Unit data and saved audio live in their own caches,
    which survive app updates. Bump CACHE with every release. */
-const CACHE="akt-practice-4.21", DATA="akt-data", AUDIO="akt-audio";
+const CACHE="akt-practice-4.22", DATA="akt-data", AUDIO="akt-audio";
 const CORE=["./","index.html","app.css","app.js","vendor/fsrs.js","data/index.js","manifest.webmanifest","icon.svg","icon-192.png","icon-512.png"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE&&k!==DATA&&k!==AUDIO).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
