@@ -7,9 +7,9 @@ The detailed question-writing guide is kept with the private build files; this f
 
 | Part | Standard |
 |---|---|
-| Notes pages | One page per presentation or decision area, covering the whole RACGP curriculum unit. About 10 to 16 pages for a large unit. |
-| Flashcards | About 27 per page (15 to 45). One fact per card, cloze format with a hint, linked to its notes section, with its source named. |
-| Questions | 6 to 7 per page, one of them a KFP. Every notes page has at least five. |
+| Notes pages | One page per presentation or decision area, covering the whole RACGP curriculum unit. The page count and each page's word budget follow the unit's scope map (high-yield lines only; briefs/notes.md section 1). |
+| Flashcards | Per the page's card budget from the scope map, written to briefs/cards.md (one fact per card, cloze format, a lens hint on about one card in five, linked to its notes section, with its source named). |
+| Questions | 5 to 7 per page, one of them a KFP. Every notes page has at least five. |
 | Coverage table | Every topic in the RACGP curriculum unit (6th and 7th editions) and every topic for the unit in the public exam reports, mapped to a page or given a written reason for leaving it out. |
 | Revised-notes PDFs | One per page, numbered in app order, in the private notes folder. |
 
@@ -20,43 +20,22 @@ The detailed question-writing guide is kept with the private build files; this f
 3. Log every fact taken from a source in the private build notes as it is read, in own words. No source text goes into the app or the public repository.
 4. Where two sources give different numbers, the page gets a "Where the sources differ" table. Teaching text and questions follow whichever source is more recent, and the page says which. Therapeutic Guidelines is the default when dates are similar.
 5. No number in the notes comes from memory or judgement. If no source gives a figure, the page says so.
-6. A question that rests on something not read in a source carries a verification note (`v`) shown to the user, or is not written.
+6. A question that rests on something not read in a source is not written.
 7. Nothing is copied or adapted from any course, from the college's papers, or from any question bank. Every item is original and written from the primary sources.
 
 ## Notes page shape
 
-- Plain English, short sentences, Australian spelling, no first person.
-- Sections of bullets and tables. Tables are the preferred way to summarise comparisons. On a phone, column widths follow the amount of text; a table with three or more wordy columns scrolls sideways. Keep the first column a short label and cells to a sentence.
-- An "In brief" box at the top: three to five lines a reader could act on (the `brief` list in the page file).
-- One "take-home" line per major section.
-- The teaching text states one rule. Comparisons between sources go in "Where the sources differ" at the end, not in the flow.
-- Start a bullet with a short label and a colon where it helps scanning ("Metformin: ..."); the app sets the label in bold.
-- Bullets of 30 words or fewer. A page of more than about 1,500 words is split.
-- A final section, "How this is tested", listing the scenarios the questions use.
-- Curriculum topics covered, then references with what was read.
+The notes-page standard is briefs/notes.md in the private build files: scope and length, page structure, writing rules, tables, "Where the sources differ", red flags and doses, references, "How this is tested", phone layout, the checker checklist and the script checks. Follow it in full.
 
 ## Questions
 
-- Written to the question-writing guide: one decision per item, whole-patient stem of about 80 to 120 words with 3 to 5 medicines where an adult would have them, options in alphabetical order, per-option explanations that say when each wrong option would be right, a "what if" that flips the answer, and a one-line key.
-- Positive stems only (no "least appropriate" or "except").
-- The build flags any item whose correct option is the longest or the shortest. Reword until none is flagged.
-- Write in families: the next rung, the other side of the rule, the age or comorbidity flipped.
-- Check the unit for a repeated correct answer (for example "Refer to a urologist") and vary the wording or the mix.
-- Each question links to one notes section and to the flashcards from that section.
+- 5 to 7 questions per notes page, exactly one of them a KFP; every page has at least five (briefs/questions.md section 15).
+- Each question links to one notes section and to the flashcards from that section, and rests only on what the unit's source log records.
+- The question standard is briefs/questions.md in the private build files: how items are built, stems, lead-ins, options, distractors, difficulty, KFP format, explanations, unit balance, the file format, the checker checklist and the script checks. Follow it in full.
 
 ## Flashcards
 
-Written to the same house style as the Anki decks (the card-craft rubric in the anki-card-builder skill).
-
-- One card, one idea. If answering needs two recalls, it is two cards.
-- The answer is 1 to 4 words. A longer answer is a hidden list: split it, or make the count the point.
-- Situation visible, answer hidden: "In [situation], the next step is ...". Use question form for diagnosis, next-step and yes-or-no rules.
-- The visible text must allow only one answer, and must not give it away.
-- No list inside a blank and no soft quantifiers.
-- About 80% of cards carry an Extra line: the discriminator, the reason or the caveat, never a restatement of the answer. Lists belong here.
-- Hints on about one card in five, three words at most, and only as a lens (answer type, or an either-or such as "raised or lowers").
-- Contrast look-alikes on the card itself.
-- The build prints a card report (answer length, Extra and hint rates) and flags any answer over four words.
+The card standard is briefs/cards.md in the private build files: what earns a card, the cloze rules, the measured house style (answers of 1 to 4 words, Extra on about 80%, a lens hint on about one card in five), the checker checklist and the script checks. Follow it in full.
 
 ## Build and release
 
@@ -66,10 +45,6 @@ Written to the same house style as the Anki decks (the card-craft rubric in the 
 4. Test at phone width (390 px) in light and dark: every notes page opens, nothing scrolls sideways, a session runs, no console errors.
 5. Regenerate the PDFs and refresh the private archive.
 6. Commit, push, and confirm the live site shows the new version number.
-
-## Question form (added 24 November 2026)
-
-New questions follow the 25 rules in section 2 of EXAM-STYLE-RECOMMENDATIONS.md in the private build folder, measured from the 2027.1 practice papers: option count follows the task (5, or 8 to 10), short options without reasons, stock lead-ins beginning "What ... MOST", KFPs as full cases with about four options per correct answer. Where this section conflicts with older text above, this section wins.
 
 ## Final check before calling a unit done
 
